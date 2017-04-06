@@ -3,7 +3,7 @@ public static void main(String[] args) {
    Scanner input = new Scanner (System.in);
    System.out.print ("Masukan Deret Fibonacci  : ");
    c = input.nextInt ();
-        for(int i=1; i<=c; i++){            
+        for(int i=2; i<=c; i++){            
 			a=b;
 			b=hasil;
 			System.out.print(hasil+" ");
